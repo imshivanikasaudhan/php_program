@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "perfect-scrollbar/css/perfect-scrollbar.css";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&family=Inter:wght@300;400;500&display=swap');
+.dark .ps__rail-y,
+.dark .ps__rail-x {
+    background-color: transparent !important;
+}
